@@ -1,0 +1,15 @@
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/bin/Debug/net6.0/unit03-jumper
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/bin/Debug/net6.0/unit03-jumper.deps.json
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/bin/Debug/net6.0/unit03-jumper.runtimeconfig.json
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/bin/Debug/net6.0/unit03-jumper.dll
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/bin/Debug/net6.0/unit03-jumper.pdb
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.csproj.AssemblyReference.cache
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.AssemblyInfoInputs.cache
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.AssemblyInfo.cs
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.csproj.CoreCompileInputs.cache
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.dll
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/refint/unit03-jumper.dll
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.pdb
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/unit03-jumper.genruntimeconfig.cache
+/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/Debug/net6.0/ref/unit03-jumper.dll

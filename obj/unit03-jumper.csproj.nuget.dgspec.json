@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/unit03-jumper.csproj": {}
+  },
+  "projects": {
+    "/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/unit03-jumper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/unit03-jumper.csproj",
+        "projectName": "unit03-jumper",
+        "projectPath": "/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/unit03-jumper.csproj",
+        "packagesPath": "/Users/claudio/.nuget/packages/",
+        "outputPath": "/Users/claudio/Documents/CSE210/developer starter repository/cse210-student-developer-csharp/unit03-jumper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/claudio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
