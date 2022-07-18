@@ -51,14 +51,6 @@ namespace unit03_jumper
             return wordPlace;
         }
 
-        // public string print()
-        // {
-        //     char[] letters = { 'A', 'B', 'C' };
-        //     string alphabet = new string(letters);
-        //     Console.WriteLine(alphabet);
-        //     return alphabet;
-        // }
-
         public void drawBoard()
         {
             terminalService.WriteText(" ");
@@ -79,14 +71,6 @@ namespace unit03_jumper
         {
             letter_guessed = terminalService.ReadText("Guess a letter [a-z]: ");
         }
-        
-
-
-        // how can I have the letters found show in the next iteration?
-        // should I create a list to show on the board?
-        // something like {leter}  {leter2} {letter3}
-        // if I do this I would have to have a variable to save the previous letters
-        // so that it checks them everytime.
         
         public void mysterious_word_board()
         {
@@ -123,21 +107,6 @@ namespace unit03_jumper
                 Console.Write(item);
             } 
         }   
-                // I had it wrong twice, and the parechote did partialy desapeared
-                // then I got it right and the leter did showed up but the parechute
-                // reapeared.
-                // the other problem is that if the word has two  of the same letter is
-                // only recognizing one. 
-
-                // create list misterious_word with as many elements as letters the word has
-                // if the letter guessed is not in the random word 
-                // the list will stay in it's default position showing "_ "
-                // else if the letter guessed IS in the random word then 
-                // we change the "_ " by the letter using the index of the word list 
-                // so we replace it in the right spot.
-            // return wordPlace;
-        
-
         public void updateBoard()
         {   
             if (guessed != true)
