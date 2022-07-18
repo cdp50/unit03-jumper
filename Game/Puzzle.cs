@@ -37,7 +37,12 @@ namespace unit03_jumper
         public Puzzle()
         {
         }
-
+        /// <summary>
+        /// <para>
+        /// The responsibility of place is to return the same amount of underscores 
+        /// as the amount of caracters of the random word.
+        /// </para>
+        /// </summary>   
         private string place()
         {
             List<char> chars = new List<char>();
@@ -50,7 +55,11 @@ namespace unit03_jumper
             }
             return wordPlace;
         }
-
+        /// <summary>
+        /// <para>
+        /// The responsibility of draw board is to display the first version of the board
+        /// </para>
+        /// </summary>   
         public void drawBoard()
         {
             terminalService.WriteText(" ");
@@ -67,11 +76,21 @@ namespace unit03_jumper
             terminalService.WriteText("^^^^^^^");
             terminalService.WriteText(" ");
         }
+        /// <summary>
+        /// <para>
+        /// The responsibility of getInput is to wright the promt and hold the user's answer. 
+        /// </para>
+        /// </summary>  
         public void GetInputs()
         {
             letter_guessed = terminalService.ReadText("Guess a letter [a-z]: ");
         }
-        
+        /// <summary>
+        /// <para>
+        /// The responsibility of mysterious_word_board() is to create a string list
+        /// from the chars list so I can compare it later against the guessed word.
+        /// </para>
+        /// </summary>  
         public void mysterious_word_board()
         {
             List<char> chars = new List<char>();
@@ -85,6 +104,13 @@ namespace unit03_jumper
                 mysterious_word_List.Add("_ ");
             }
         }
+        /// <summary>
+        /// <para>
+        /// The responsibility of mysterious_word_update()is to compare the guessed letter
+        /// with the letters of the word, if the guess is correct the underscore is replaced
+        /// by the letter.
+        /// </para>
+        /// </summary>  
         private void mysterious_word_update()
         {
             // create a list that shows the guessed letters
@@ -107,6 +133,12 @@ namespace unit03_jumper
                 Console.Write(item);
             } 
         }   
+        /// <summary>
+        /// <para>
+        /// The responsibility of updateBoard()is to cut the parechute if necesary and 
+        /// display the letters that are correct.
+        /// </para>
+        /// </summary> 
         public void updateBoard()
         {   
             if (guessed != true)

@@ -17,7 +17,13 @@ namespace unit03_jumper
         public Word()
         {
         }
-
+        
+        /// <summary>
+        /// <para>
+        /// The responsibility of get_random_word is to create a list of words, 
+        /// select and output a random word
+        /// </para>
+        /// </summary>   
         public string get_random_word()
         {
             var random = new Random();
